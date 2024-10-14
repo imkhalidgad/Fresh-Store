@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Store Logo" translatesAutoresizingMaskIntoConstraints="NO" id="J5L-Nn-r08">
+                                <rect key="frame" x="104.66666666666669" y="279" width="184" height="203.33333333333337"/>
+                                <color key="tintColor" red="0.1058823529" green="0.30588235289999999" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="203.33333333333331" id="cWP-zf-NvF"/>
+                                    <constraint firstAttribute="width" constant="184" id="hYN-j2-Dr2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fresh Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5P-GP-obW">
+                                <rect key="frame" x="126" y="460" width="140" height="37"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="30"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.76862745099999996" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.1058823529" green="0.30588235289999999" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="J5L-Nn-r08" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="220" id="8qA-eJ-sJF"/>
+                            <constraint firstItem="r5P-GP-obW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Cm1-g9-XYo"/>
+                            <constraint firstItem="J5L-Nn-r08" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="E2K-nr-gkz"/>
+                            <constraint firstItem="r5P-GP-obW" firstAttribute="top" secondItem="J5L-Nn-r08" secondAttribute="bottom" constant="-22.333333333333371" id="GZS-bQ-So6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Store Logo" width="500" height="500"/>
+    </resources>
+</document>

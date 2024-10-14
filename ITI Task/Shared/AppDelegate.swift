@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  ITI Task
 //
-//  Created by Khalid Gad on 30/07/2024.
-//
 
 import UIKit
 
